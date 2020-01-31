@@ -1,5 +1,5 @@
-for i in range(1, 100+1):
-    print("Fizz" * (i % 3 == 0) + "Buzz" * (i % 5 == 0) or i)
+#for i in range(1, 100+1):
+#    print("Fizz" * (i % 3 == 0) + "Buzz" * (i % 5 == 0) or i)
 
 
 #for i in range(1, 101):
@@ -42,5 +42,3 @@ range_number = range(0,101)
 
 for i in range_number:
     print('fizz'* (not(i%3)) + 'buzz' * (not(i%5)) or i )
-    print(('fizz'* (not(i%3)) + 'buzz' * (not(i%5))), i )
-f
