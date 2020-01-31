@@ -2,7 +2,7 @@ range_number = range(0,101)
 #print(list(map(lambda x: 'fizzbuzz' if x % 15 == 0 else 'fizz' if x % 3==0 else 'buzze' if  x % 5==0 else x, range_number)))
 
 for i in range_number:
-    print(('fizz'* (not(i%3)) + 'buzz' * (not(i%5))), i )
+    print('fizz'* (not(i%3)) + 'buzz' * (not(i%5)) or i )
 
 #for i in range(1, 101):
 #    if i % 3 == 0:
